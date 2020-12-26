@@ -1,0 +1,14 @@
+[requires]
+sqlite3/3.33.0
+
+[generators]
+cmake_find_package
+cmake_paths
+
+[options]
+sqlite3:shared=True
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./lib
+lib, *.so* -> ./lib
