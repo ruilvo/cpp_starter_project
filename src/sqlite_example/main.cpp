@@ -4,6 +4,7 @@
 
 int main()
 {
-    std::cout << "Hello World!" << std::endl;
-    std::cout << "SQLite3 version " << sqlite3_libversion();
+    std::cout << "Hello World!\n"
+                 "SQLite3 version "
+              << sqlite3_libversion() << "\n";
 }
