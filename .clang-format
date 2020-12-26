@@ -15,9 +15,9 @@ StatementMacros:
 SortIncludes: true
 IncludeBlocks: Regroup
 IncludeCategories:
+  - Regex: '<[^Q].*'
+    Priority: 3
   - Regex: '<Q.*'
     Priority: 2
-  - Regex: '<[^Q].*'
-    Priority: 1
   - Regex: '".*'
-    Priority: 3
+    Priority: 1
