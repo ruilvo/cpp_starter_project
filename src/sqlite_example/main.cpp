@@ -6,5 +6,5 @@ int main()
 {
     std::cout << "Hello World!\n"
                  "SQLite3 version "
-              << sqlite3_libversion() << "\n";
+              << sqlite3_libversion() << '\n';
 }
