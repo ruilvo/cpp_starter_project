@@ -1216,3 +1216,6 @@ MigrationBackup/
 # End of https://www.toptal.com/developers/gitignore/api/c,c++,python,conan, \
 # cmake,clion,codeblocks,clion+all,clion+iml,vs,visualstudio, \
 # visualstudiocode,vscode,eclipse,qt,qtcreator,emacs,vim,git
+
+# .clangd analysis data
+.clangd/
