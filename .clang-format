@@ -1,0 +1,23 @@
+---
+BasedOnStyle: Microsoft
+ColumnLimit: 90
+AlignEscapedNewlines: Left
+AlignTrailingComments: false
+AllowShortBlocksOnASingleLine: Empty
+ForEachMacros:
+  - forever
+  - foreach
+  - Q_FOREACH
+  - BOOST_FOREACH
+StatementMacros:
+  - Q_UNUSED
+  - QT_REQUIRE_VERSION
+SortIncludes: true
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '<Q.*'
+    Priority: 2
+  - Regex: '<[^Q].*'
+    Priority: 1
+  - Regex: '".*'
+    Priority: 3
