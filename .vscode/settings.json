@@ -1,0 +1,21 @@
+{
+  "files.associations": {
+    ".clang-tidy": "yaml"
+  },
+  "C_Cpp.default.configurationProvider": "vector-of-bool.cmake-tools",
+  "clangd.arguments": ["--clang-tidy"],
+  "cmake.preferredGenerators": ["Ninja"],
+  "cmake.copyCompileCommands": "${workspaceFolder}/compile_commands.json",
+  "cmake.configureEnvironment": {
+    "CMAKE_PREFIX_PATH": "D:/Programs/Qt/5.15.2/msvc2019_64",
+    "FETCHCONTENT_QUIET": "OFF"
+  },
+  "[cmake]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[cpp]": {
+    "editor.rulers": [90],
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  }
+}
