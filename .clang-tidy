@@ -1,3 +1,3 @@
 ---
-Checks: '*,-modernize-use-trailing-return-type,-fuchsia-default-arguments-calls'
+Checks: '*,-modernize-use-trailing-return-type,-fuchsia-default-arguments-calls,-llvmlibc-*'
 FormatStyle: none
